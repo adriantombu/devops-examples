@@ -1,0 +1,15 @@
+{
+  "Id": "Policy1597095871419",
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "Stmt1597095869601",
+      "Action": [
+        "s3:GetObject"
+      ],
+      "Effect": "Allow",
+      "Resource": "arn:aws:s3:::s3-static-site.devops.otso.fr/*",
+      "Principal": "*"
+    }
+  ]
+}
